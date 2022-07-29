@@ -9,6 +9,9 @@ that helps you make the distinction between tasks that are important, not import
 urgent, and not urgent. It splits tasks into four boxes that prioritize which tasks you 
 should focus on first and which you should delegate or delete
   </p>
+<p>
+    Narzędzie do gospodarownia czasu z opcją piorytowania zadań. Zaplanuj swój czas na na któtki i dłułgi okres.
+</p>
 </div>
 
 ## Project setup

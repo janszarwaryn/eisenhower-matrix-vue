@@ -7,9 +7,15 @@
           <p class="month-text">{{ month }}</p>
           <p class="year-text">{{ year }}</p>
         </div>
-        <div class="sub-holder">
-          <p class="month-text">{{ hours }}</p>
-          <p class="year-text">{{ minutes }}</p>
+      </div>
+      <div>
+        <div class="sub-holder flex">
+          <h1 class="date-text">Time</h1>
+          <div class="sub-holder centered-text">
+            <p class="month-text">{{ hours }}</p>
+            <p class="year-text">{{ minutes }}</p>
+            <p class="year-text">{{ seconds }}</p>
+          </div>
         </div>
       </div>
       <div class="sub-holder btn-holder">
@@ -56,6 +62,9 @@ export default {
     minutes() {
       return this.today.getMinutes();
     },
+    seconds() {
+      return this.today.getSeconds();
+    },
   },
 
 };
@@ -73,7 +82,7 @@ export default {
 
 .topbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   border-radius: 10px;
   width: calc(100% - 50px);
   box-shadow: 0px 3px 15px #00000013;
@@ -121,6 +130,10 @@ button {
   font-size: 18px;
   vertical-align: text-top;
   cursor: pointer;
+}
+
+.centered-text{
+  text-align: center;
 }
 
 @media screen and (max-width: 500px) {
