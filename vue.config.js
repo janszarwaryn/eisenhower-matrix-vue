@@ -2,10 +2,10 @@ module.exports = {
     pluginOptions: {
       electronBuilder: {
         builderOptions: {
-            appId: "com.kanbanboard.rubanthilak.app",
-            productName: "Kanban Board",
+            appId: "com.eisenhower-matrix-vue.app",
+            productName: "Jan Szarwaryn - Eisenhower Matrix",
             win: {
-              publisherName: "Ruban Thilak" 
+              publisherName: "Jan Szarwaryn"
             }
         }
       }

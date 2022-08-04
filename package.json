@@ -1,14 +1,14 @@
 {
-  "name": "kanban-board",
+  "name": "eisenhower-matrix-vue",
   "version": "1.0.0",
   "private": true,
-  "description": "Simple Kanban that flipping works.",
+  "description": "The Eisenhower Matrix is a simple decision-making tool that helps you make the distinction between tasks that are important, not important, urgent, and not urgent",
   "author": {
-    "name": "Ruban Thilak",
-    "email": "rubanthilak@zoho.com",
-    "url": "https://rubanthilak.github.io"
+    "name": "Jan Szarwaryn",
+    "email": "office@jspace.pl",
+    "url": "https://jspace.pl"
   },
-  "homepage": "https://rubanthilak.github.io",
+  "homepage": "https://jspace.pl",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
