@@ -14,7 +14,7 @@
           <div class="sub-holder centered-text">
             <p class="month-text">{{ hours }}</p>
             <p class="year-text">{{ minutes }}</p>
-            <p class="year-text">{{ seconds }}</p>
+<!--            <p class="year-text">{{ seconds }}</p>-->
           </div>
         </div>
       </div>
